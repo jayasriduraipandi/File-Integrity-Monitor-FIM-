@@ -1,0 +1,28 @@
+# GuardianFIM Configuration
+# Edit this file to customize your setup
+
+# Default hash algorithm: sha256 | sha512 | md5
+default_algorithm: sha256
+
+# Default baseline file location
+default_baseline: baseline.json
+
+# Watch mode scan interval (seconds)
+watch_interval: 30
+
+# Log file path
+log_file: logs/guardian.log
+
+# Report output directory
+report_dir: reports
+
+# Email alert configuration
+email:
+  enabled: false
+  smtp_host: smtp.gmail.com
+  smtp_port: 587
+  from: guardian@example.com
+  to: admin@example.com
+  username: your_email@gmail.com
+  # Use an App Password for Gmail: https://myaccount.google.com/apppasswords
+  password: your_app_password
