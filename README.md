@@ -7,8 +7,6 @@
 
 > **GuardianFIM** is a cybersecurity tool that detects unauthorized file changes using cryptographic hashing (SHA-256/512, MD5). It creates a trusted baseline snapshot of your filesystem, then continuously monitors for modifications, deletions, new files, and permission changes — alerting you immediately when tampering is detected.
 
----
-
 ## 🔍 What is File Integrity Monitoring?
 
 File Integrity Monitoring (FIM) is a core cybersecurity technique used to detect:
